@@ -90,10 +90,10 @@ with gr.Blocks(title="PaperCast") as demo:
 
     with gr.Tab("1. Process paper"):
         with gr.Row():
-            uploaded_file = gr.File(label="Upload a PDF", file_types=[".pdf"], type="filepath")
+            uploaded_file = gr.File(label="Upload a PDF", type="filepath")
             source_text = gr.Textbox(
                 label="Or enter an arXiv ID / PDF URL",
-                placeholder="2501.17887 or https://arxiv.org/pdf/2501.17887",
+                placeholder="1706.03762 or https://arxiv.org/pdf/1706.03762",
             )
         with gr.Row():
             parser_label = gr.Radio(
@@ -167,4 +167,4 @@ with gr.Blocks(title="PaperCast") as demo:
 
 
 if __name__ == "__main__":
-    demo.queue().launch()
+    demo.queue().launch(ssr_mode=False)
