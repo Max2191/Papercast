@@ -3,9 +3,9 @@ title: PaperCast
 emoji: 🎧
 colorFrom: indigo
 colorTo: blue
-sdk: gradio
+sdk_versuin: 6.22.0
 app_file: app.py
-pinned: true
+pinned: false
 python_version: "3.11"
 ---
 
