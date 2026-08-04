@@ -3,7 +3,7 @@ title: PaperCast
 emoji: 🎧
 colorFrom: indigo
 colorTo: blue
-sdk_versuin: 6.22.0
+sdk_version: 6.22.0
 app_file: app.py
 pinned: false
 python_version: "3.11"
